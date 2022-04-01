@@ -1,5 +1,5 @@
          *                 *                  *              *
-                                                      *             *
+                             GoScan                    *             *
                         *            *                             ___
   *               *                                          |     | |
         *              _________##                 *        / \    | |
@@ -14,8 +14,14 @@
 ____0_____0__\|/__@@@@__@@@__________|_\|/__|___\|/__\|/___________|_|_
   \|/                / /       \|/                              \|/    
 +---------------------------------------------------------------------+
-|   GoScan- fast network enumeration (∩｀-´)⊃━   ☆ﾟ.*･｡ﾟ   <targets>   |
-|   Written by: Jake Scheetz          <you>      <cyber>              |
-|   Twitter: @FindingUrPasswd                                         |
-|   YouTube: youtube.com/c/FindingUrPasswd                            |
+|   GoScan- fast network enumeration (∩｀-´)⊃━   ☆ﾟ.*･｡ﾟ              |
+|   Written by: Jake Scheetz          <you>          ☆ﾟ.*･｡ﾟ          |
+|   Twitter: @FindingUrPasswd                  <cyberMagic>    (ᵟຶ︵ ᵟຶ) |
+|   YouTube: youtube.com/c/FindingUrPasswd                   <badGuys>|
 +---------------------------------------------------------------------+
+
+
+
+
+
+

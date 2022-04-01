@@ -20,10 +20,11 @@ func banner(){
     bold := "\u001b[1m"
     underline := "\u001b[4m"
     reset := "\u001b[0m"
+    whitebg := "\u001b[47;1m"
 
 
     fmt.Println(colorYellow + "         *                 *                  *              *        ");
-	fmt.Println("                                                      *             *");
+	fmt.Println("                             "+whitebg+colorGreen+"Go"+colorYellow+"Scan"+reset+colorYellow+"                    *             *");
 	fmt.Println("                        *            *                             \033[37m___");
 	fmt.Println(colorReset + "  \033[33m*               \033[33m*                                          \033[31m|     \033[37m| |");
 	fmt.Println(colorReset + "        \033[33m*"+"              \033[37m_________\033[31m##"+"                 \033[33m*"+"        \033[31m/"+colorRed+" \\"+"    \033[37m| |"); //working
@@ -38,11 +39,11 @@ func banner(){
 	fmt.Println(colorReset + colorGreen + "____" + colorWhite + "0" + colorGreen +"_____" + colorWhite + "0" + colorGreen+ "__\\|/__" + colorYellow + "@@@@" + colorWhite + "__" + colorYellow + "@@@" + colorYellow + "__________|" + colorGreen + "_\\|/__" + colorYellow + "|" + colorGreen+ "___\\|/__\\|/___________" + colorWhite + "|" + colorGreen + "_" + colorWhite+ "|" + colorGreen + "_"+ colorReset);
  	fmt.Println(colorGreen + "  \\|/                "+colorWhite+"/ /       "+colorGreen+"\\|/                              \\|/    ");
  	fmt.Println(colorYellow + "+"+colorBlue+"---------------------------------------------------------------------"+colorYellow+"+");
- 	fmt.Println(colorBlue + "|   "+colorGreen+"Go"+colorYellow+"Scan"+colorWhite+"- fast network enumeration (∩｀-´)⊃"+colorYellow+"━   "+colorPurple+"☆"+colorCyan+"ﾟ"+colorYellow+"."+colorPurple+"*"+colorGreen+"･"+colorYellow+"｡"+colorCyan+"ﾟ   "+colorRed+"<targets>  "+colorBlue+"|");
- 	fmt.Println(colorBlue + "|   "+colorWhite+"Written by: "+bold+underline+"Jake Scheetz"+reset+"          "+colorGreen+"<you>      "+colorPurple+"<cyber>              "+colorBlue+"|");
- 	fmt.Println(colorBlue + "|   "+colorCyan+"Twitter"+colorWhite+": "+colorYellow+"@"+colorWhite+bold+underline+"FindingUrPasswd"+reset+"                                         "+colorBlue+"|");
- 	fmt.Println("|   YouTube: youtube.com/c/FindingUrPasswd                            |");
- 	fmt.Println("+---------------------------------------------------------------------+")
+ 	fmt.Println(colorBlue + "|   "+colorGreen+"Go"+colorYellow+"Scan"+colorWhite+"- fast network enumeration (∩｀-´)⊃"+colorYellow+"━   "+colorPurple+"☆"+colorCyan+"ﾟ"+colorYellow+"."+colorPurple+"*"+colorGreen+"･"+colorYellow+"｡"+colorCyan+"ﾟ   "+colorRed+"           "+colorBlue+"|");
+ 	fmt.Println(colorBlue + "|   Written by: "+bold+underline+colorWhite+"Jake Scheetz"+reset+"          "+colorGreen+"<you>          "+colorPurple+"☆"+colorCyan+"ﾟ"+colorYellow+"."+colorPurple+"*"+colorGreen+"･"+colorYellow+"｡"+colorCyan+"ﾟ          "+colorBlue+"|");
+ 	fmt.Println(colorBlue + "|   "+colorCyan+"Twitter"+colorWhite+": "+colorYellow+"@"+bold+colorWhite+"FindingUrPasswd"+reset+"                 "+colorPurple+"<cyberMagic>    "+colorWhite+"("+colorCyan+"ᵟຶ︵ ᵟຶ"+colorWhite+") "+colorBlue+"|");
+ 	fmt.Println(colorBlue + "|   "+ colorRed+"You"+colorWhite+"Tube: "+bold+"youtube.com/c/FindingUrPasswd"+reset+"                   "+colorRed+"<badGuys>"+colorBlue+"|");
+ 	fmt.Println(colorYellow+"+"+colorBlue+"---------------------------------------------------------------------"+colorYellow+"+"+colorReset);
 }
 
 func main (){
@@ -51,3 +52,14 @@ func main (){
 	
 	
 } //end main
+
+
+
+/*
+fmt.Println(colorBlue + "|   "+colorGreen+"Go"+colorYellow+"Scan"+colorWhite+"- fast network enumeration (∩｀-´)⊃"+colorYellow+"━   "+colorPurple+"☆"+colorCyan+"ﾟ"+colorYellow+"."+colorPurple+"*"+colorGreen+"･"+colorYellow+"｡"+colorCyan+"ﾟ   "+colorRed+"<targets>  "+colorBlue+"|");
+fmt.Println(colorBlue + "|   "+colorWhite+"Written by: "+bold+underline+"Jake Scheetz"+reset+"          "+colorGreen+"<you>      "+colorPurple+"<cyber>              "+colorBlue+"|");
+fmt.Println(colorBlue + "|   "+colorCyan+"Twitter"+colorWhite+": "+colorYellow+"@"+colorWhite+bold+"FindingUrPasswd"+reset+"                                         "+colorBlue+"|");
+fmt.Println(colorBlue + "|   "+ colorRed+"You"+colorWhite+"Tube: "+bold+"youtube.com/c/FindingUrPasswd"+reset+"                            "+colorBlue+"|");
+
+cyber magic --> "+colorPurple+"☆"+colorCyan+"ﾟ"+colorYellow+"."+colorPurple+"*"+colorGreen+"･"+colorYellow+"｡"+colorCyan+"ﾟ
+*/
