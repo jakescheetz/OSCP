@@ -23,5 +23,38 @@ ____0_____0__\|/__@@@@__@@@__________|_\|/__|___\|/__\|/___________|_|_
 
 
 
+HELP MENU STUFF 
+USAGE:
+- mode followed by the -t and target IP(s) are required to be supplied to the tool
+- optional flags can be supplied to achieve additional functionality
+- no installation: go run ./goscan {mode} -t {IP address} [options]
+- from build: ./goscan mode [options]
+- for overall example usage ---> github link
+- for example usage on a specific mode, run: ./goscan {mode} -h/--help
+
++-----------------+--------------------------+
+|     modes       |         Explanation      |
++-----------------+--------------------------+
+|     single      | To target a single IP.   |
++-----------------+--------------------------+
+|                 | To target a couple of IP |
+|                 | addresses that are comma | 
+|     multi       | separated. Max of 5 IP's |             
+|                 | (10.10.10.1,2,3...)      |
++-----------------+--------------------------+
+|                 | To target a cidr range   |
+|     cidr        | of IP addresses.         |
+|                 | (10.10.10.1/24)          |
++-----------------+--------------------------+
+
+
+flag ideas: 
+- DNS recon
+- output file specification
+- specify out of scope IP addresses
+
+
+
+
 
 

@@ -1,0 +1,11 @@
+- work on single target mode: 
+    GOALS for single target mode:
+    1. mkdir with target IP as name 
+    2. pingsweep target to verify it is up 
+        a. if not up on pingsweep, try SYN scan
+        - if up in either, proceed
+    3. Nmap the target with scripts and services
+        a. highlight potential entry points to a system
+    4. Perform DNS enumeration, if DNS is open or HTTP open
+        a. mkdir 'dns'
+        b. scan dns, grab subdomains and grep for names -> write to dns-subdomain file 
