@@ -2,26 +2,106 @@ package main
 
 // imports
 import (
+	"bufio"
+	"bytes"
+	"flag"
 	"fmt"
+	"io/ioutil"
 	"os"
+	"os/exec"
+	"strings"
 )
 
 //main logic
 func main() {
 
-	//if no cmd line args, -h or --help is supplied print help menu, else print the banner to start tool
-	if (len(os.Args) == 1) || (os.Args[1] == "-h") || (os.Args[1] == "--help") {
-		// TODO: change to function once help menu design is done
-		fmt.Println("help menu :)")
-		return
-	} else {
-		//print banner
-		banner()
-	}
+	//flag options
+	ipPtr := flag.String("ip", "x.x.x.x", "[REQUIRED] target IP(s) to be scanned.")
 
+	flag.Parse()
+
+	mkdir(*ipPtr)     //working mkdir
+	pingsweep(*ipPtr) //working pingsweep
+	//cat(*ipPtr, "pingsweep-alive-hosts", ".txt")
+	//grepAliveHosts(cat(*ipPtr, "pingsweep-alive-hosts", ".txt"))
+	verifyIP(*ipPtr)
 } //end main
 
 // OS commands to execute
+func mkdir(dir string) {
+	app := "mkdir"
+	arg0 := "./" + dir
+
+	cmd := exec.Command(app, arg0)
+	var out bytes.Buffer
+	var stderr bytes.Buffer
+	cmd.Stdout = &out
+	cmd.Stderr = &stderr
+	err := cmd.Run()
+	if err != nil {
+		fmt.Println(err.Error())
+		return
+	}
+}
+
+func pingsweep(ipPtr string) {
+	app := "nmap"
+	arg0 := "-sn"
+	arg1 := "-vv"
+	arg2 := "-T4"
+	arg3 := ipPtr
+	arg4 := "-oG"
+	arg5 := "./" + ipPtr + "/pingsweep-alive-hosts.txt"
+
+	cmd := exec.Command(app, arg0, arg1, arg2, arg3, arg4, arg5)
+	stdout, err := cmd.Output()
+	if err != nil {
+		fmt.Println(err.Error())
+		return
+	}
+	fmt.Println(string(stdout)) //THIS IS GETTING NMAP OUTPUT
+}
+
+func cat(dir string, filename string, extension string) []byte {
+	//inpt := string(stdout), need to have std []byte as param
+	cat := "cat"
+	inptFile := string("./" + dir + "/" + filename + extension)
+
+	stdout, stderr := exec.Command(cat, inptFile).Output()
+
+	if stderr != nil {
+		panic(stderr)
+	}
+	return stdout
+}
+
+func grepAliveHosts(stdout []byte) {
+	cmd := exec.Command("grep", "'Status: Up'")
+
+	grepIn, _ := cmd.StdinPipe()
+	grepOut, _ := cmd.StdoutPipe()
+
+	cmd.Start()
+	grepIn.Write(stdout)
+	grepIn.Close()
+	grepBytes, _ := ioutil.ReadAll(grepOut)
+	cmd.Wait()
+
+	fmt.Println("[+] verified host(s) responsive: ")
+	fmt.Println(string(grepBytes))
+}
+func verifyIP(dir string) {
+
+	fileHandle, _ := os.Open("./" + dir + "/pingsweep-alive-hosts.txt")
+	defer fileHandle.Close()
+	s := bufio.NewScanner(fileHandle)
+
+	for s.Scan() {
+		if strings.Contains(s.Text(), "Status: Up") {
+			println(s.Text())
+		}
+	}
+}
 
 // func execLs() {
 // 	//try to exec ls -l??

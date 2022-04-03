@@ -1,0 +1,8 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-04-03 10:07 EDT
+Initiating Ping Scan at 10:07
+Scanning 127.0.0.1 [2 ports]
+Completed Ping Scan at 10:07, 0.00s elapsed (1 total hosts)
+Nmap scan report for localhost (127.0.0.1)
+Host is up, received conn-refused (0.000055s latency).
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 0.00 seconds
