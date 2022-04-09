@@ -1,0 +1,98 @@
+{
+  "main": {
+    "id": "f96b6771874aac9d",
+    "type": "split",
+    "children": [
+      {
+        "id": "177815bd03fac81e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "NFS.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "427693acf1a7fbb3",
+    "type": "split",
+    "children": [
+      {
+        "id": "ac667c253cf17967",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "95566b7aa92ae4d9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "c81116782bb5e77d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "00e08f40ee5d3312",
+    "type": "split",
+    "children": [
+      {
+        "id": "4bed73b7b0e8f907",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a6faad8615df99d6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "NFS.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "177815bd03fac81e",
+  "lastOpenFiles": [
+    "NFS.md",
+    "notes/enumeration/SMB.md",
+    "notes/enumeration/DNS.md",
+    "notes/enumeration/Port Scanning (nmap).md",
+    "README.md"
+  ]
+}
