@@ -7,8 +7,12 @@
         "id": "177815bd03fac81e",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "notes/enumeration/Port Scanning (nmap).md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "notes/enumeration/Port Scanning (nmap).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,11 +89,11 @@
   },
   "active": "177815bd03fac81e",
   "lastOpenFiles": [
+    "notes/enumeration/Port Scanning (nmap).md",
     "SMTP.md",
     "notes/enumeration/NFS.md",
     "notes/enumeration/SMB.md",
     "notes/enumeration/DNS.md",
-    "notes/enumeration/Port Scanning (nmap).md",
     "README.md"
   ]
 }

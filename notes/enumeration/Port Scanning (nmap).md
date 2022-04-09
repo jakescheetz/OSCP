@@ -1,6 +1,12 @@
 # Nmap
 > useful nmap commands
 
+- for exam use -> [AutoRecon](https://github.com/Tib3rius/AutoRecon)
+	- I highly discourage the use of this tool for course exercises and the lab env, unless you're EXTREMELY pressed for time
+	- it will fully automate the nmap process and even find exploits for you but you will not learn hardly anything about the enumeration process... which is a foundational skill to why you're studying for the OSCP in the first place. 
+	- after getting a list of hosts from pingsweep: 
+		- ```autorecon -t alivehosts.txt``` (run in a new directory so results are separated out, this gets messy really quick)
+
 - all nmap scripts are stored in /usr/share/nmap/scripts
 	- use ```--script-help [script name] ``` to see usage info
 #### Commands
