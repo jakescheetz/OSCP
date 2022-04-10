@@ -1,11 +1,11 @@
 ### Hack The Box OSCP Prep Series
-- Shocker -- Easy 🟩
+- Shocker -- Easy 🟩 (Linux)
 	- [Watch Here](https://youtu.be/8_koaiEKIU8)
 	- Topics covered: 
 		- Web Attacks
 		- Offline exploits
 		- CMS
-- BrainFuck -- Insane ♦♦♦
+- BrainFuck -- Insane ♦♦♦ (Linux)
 	- [Watch Here](https://youtu.be/5E-nQ8Yhj8o)
 	- Topics covered: 
 		- Offline exploits
@@ -13,7 +13,7 @@
 		- Web Attacks
 		- CMS 
 		- SMTP
-- Lame -- Easy 🟩
+- Lame -- Easy 🟩 (Linux)
 	- [Watch Here](https://youtu.be/_1UeFb0kVnw)
 	- Topics covered: 
 		- FTP 
