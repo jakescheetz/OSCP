@@ -1,4 +1,0 @@
-# Nmap 7.80 scan initiated Sun Apr  3 12:57:35 2022 as: nmap -sn -vv -T4 -oG ./127.0.0.1/pingsweep-alive-hosts.txt 127.0.0.1
-# Ports scanned: TCP(0;) UDP(0;) SCTP(0;) PROTOCOLS(0;)
-Host: 127.0.0.1 (localhost)	Status: Up
-# Nmap done at Sun Apr  3 12:57:35 2022 -- 1 IP address (1 host up) scanned in 0.00 seconds

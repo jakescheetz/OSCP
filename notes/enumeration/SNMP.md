@@ -33,3 +33,5 @@
 ```for community in public private manager; do snmpwalk -c $community -v1 $ip; done```
 ```snmpwalk -c public -v1 $ip```
 ```snmpenum $ip public windows.txt```
+
+
