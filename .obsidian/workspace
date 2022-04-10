@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notes/enumeration/SNMP.md",
+            "file": "notes/enumeration/HTTP + HTTPS (WebServers)/Checklist and Basic Identification.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/enumeration/SNMP.md",
+                "file": "notes/enumeration/HTTP + HTTPS (WebServers)/Checklist and Basic Identification.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,13 +89,15 @@
   },
   "active": "177815bd03fac81e",
   "lastOpenFiles": [
+    "notes/enumeration/HTTP + HTTPS (WebServers)/Checklist and Basic Identification.md",
+    "notes/enumeration/HTTP + HTTPS (WebServers)/Directory and Content Discovery.md",
+    "notes/exploitation/Web-Attacks/LFI + RFI.md",
+    "notes/enumeration/HTTP + HTTPS (WebServers)/CMS.md",
+    "notes/enumeration/NFS.md",
     "notes/enumeration/SNMP.md",
     "notes/enumeration/DNS.md",
     "notes/enumeration/SMTP.md",
-    "notes/enumeration/NFS.md",
     "notes/enumeration/Port Scanning (nmap).md",
-    "SMTP.md",
-    "notes/enumeration/SMB.md",
-    "README.md"
+    "SMTP.md"
   ]
 }
