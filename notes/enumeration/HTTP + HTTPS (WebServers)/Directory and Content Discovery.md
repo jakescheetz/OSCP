@@ -22,7 +22,6 @@
 - run on top of CMS specific scanner
 	- ```wfuzz -c -z file,/path/to/wordlist.txt --sc 200,301,302 http://[ip]/FUZZ```
 
-### 
 
 
 

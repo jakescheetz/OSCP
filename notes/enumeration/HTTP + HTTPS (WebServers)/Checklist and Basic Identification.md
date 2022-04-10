@@ -18,8 +18,6 @@
 - pick up on potential areas of LFI/RFI: 
 	- ```uniscan -u http://[ip]/ -qweds```
 
-- note /mana
-
 ### Checklist
 - [ ] robots.txt or sitemap.xml exist?
 - [ ] whatweb to indentify backend languages if not glaringly obvious

@@ -3,9 +3,9 @@
  
 
 ## Content Management Systems
-- sometimes websites will you a CMS to deploy changes to front end code
+- sometimes websites will use a CMS to make website management easier
 - make sure to enumerate version info as these have been riddled with high impact vulns
-	- google, google, google
+	- google any version numbers of anything related to the CMS (plugins, themes, etc.)
 - most come with a default login page 
 	- check for defautl creds enabled there
 

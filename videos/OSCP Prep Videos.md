@@ -1,0 +1,21 @@
+### Hack The Box OSCP Prep Series
+- Shocker -- Easy 🟩
+	- [Watch Here](https://youtu.be/8_koaiEKIU8)
+	- Topics covered: 
+		- Web Attacks
+		- Offline exploits
+		- CMS
+- BrainFuck -- Insane ♦♦♦
+	- [Watch Here](https://youtu.be/5E-nQ8Yhj8o)
+	- Topics covered: 
+		- Offline exploits
+		- IDOR 
+		- Web Attacks
+		- CMS 
+		- SMTP
+- Lame -- Easy 🟩
+	- [Watch Here](https://youtu.be/_1UeFb0kVnw)
+	- Topics covered: 
+		- FTP 
+		- SMB 
+		- Web Attacks

@@ -5,18 +5,18 @@
 > - Jake Scheetz, 2022
 
 ## Repo Layout
-### Demos
+### Videos
 ----------------
-- Contains videos of tools that I wrote that automated some of the manual processes for the course labs and exam
-- see demos here
-- example: 
+- Contains a list of videos from my YouTube channel that walkthrough the HTB machines that emulate the OSCP exam. 
+- This contains both Linux and Windows machines and varies in difficulty from insane to easy. 
+- this also contains lists of other YT videos that I found helpful for learning other topics covered in the PWK course
 
 ### Notes
 ------- 
 - This folder contains all of my quick references to useful tid-bits of information and commands that are somehow hard to remember off the top of your head
 	- this includes snippets of commands for all topics from enumeration to post exploitation techniques
 - Additionally you'll find useful nuances about tech stacks, services, and exploit chains that can be useful to identify entry points onto machines. 
-- show picture of the note layout
+
 
 ### Scripts
 ----
