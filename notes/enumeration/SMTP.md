@@ -18,3 +18,7 @@ VRFY idontexist
 
 - see smtp-vrfy.py script in the #scripts folder
 
+- nmap script scan for SMTP vulns: 
+	- ```nmap --script=smtp* -T4 -vv -Pn [ip]```
+
+
