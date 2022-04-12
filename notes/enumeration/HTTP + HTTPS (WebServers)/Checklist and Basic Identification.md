@@ -1,4 +1,4 @@
-# HTTP/HTTPS Enumeration
+-u # HTTP/HTTPS Enumeration
 > Tips and tricks for proeoperly enumerating a web server. The attack surface for this topic is most likely the largest for any protocol so it is well worth your time to slow down and make sure all of your bases are covered when a web server is identified. 
 
 ### General Web Sever Information Gathering
@@ -13,7 +13,7 @@
 	- ```nikto -h [ip]```
 
 - get a general idea of backend languages and services: 
-	- ```whatweb -u [ip]```
+	- ```whatweb -a -v [ip]```
 
 - pick up on potential areas of LFI/RFI: 
 	- ```uniscan -u http://[ip]/ -qweds```
