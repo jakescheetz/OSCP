@@ -63,5 +63,5 @@
 		- check gtfobins
 			- sudo pkexec /bin/sh 
 - proof.txt file: 
-	- ![[Pasted image 20220412162128.png]]
+	- ![[/proving-grounds/imgs/Pasted image 20220412162128.png]]
 
