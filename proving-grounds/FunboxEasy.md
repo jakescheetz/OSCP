@@ -39,7 +39,7 @@
 - use the same process to upload a revshell
 	- /usr/share/webshells/php/php-rev-shell.php
 
-#### Priv Esc 
+### Priv Esc 
 - on the machine: 
 	- upgrade shell
 		-  ```$ which python3 
@@ -62,6 +62,7 @@
 	- sudo -l 
 		- check gtfobins
 			- sudo pkexec /bin/sh 
+
 - proof.txt file: 
-	- ![[/proving-grounds/imgs/Pasted image 20220412162128.png]]
+	- ![[../imgs/Pasted image 20220412162128.png]]
 
