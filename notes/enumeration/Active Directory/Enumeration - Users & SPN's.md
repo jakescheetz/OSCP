@@ -14,3 +14,10 @@
 -----
 ### Service Accounts
 - another way to gain access is to identify a service account 
+- SPN -> Service Principal Name
+	- a name assigned to a service accout for a specific service residing within an AD env
+		- i.e. LocalSystem, LocalService, NetworkService
+
+- querying for the SPN, the 'serviceprincipalname' and 'samaccountname' need to be noted as these are telling of what service is running
+- [SPN List](https://adsecurity.org/?page_id=183)
+

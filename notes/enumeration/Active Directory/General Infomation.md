@@ -28,12 +28,16 @@
 	- if a user account is compromised, a malicious user can grab creds for another user that could log into another machine and repeat the process until domain admin creds are dumped from memory 
 		- "derivative local admin attack"
 
-### Checklist
+### Enumeration Checklist
 - [ ] enumerate users
 	- [ ] get information about the users and memberships to groups
 - [ ] Do any users have an interesting title or belong to privileged groups?
 - [ ] Identify if privileged users are logged on so creds can be grabbed from cached memory
-- [ ] 
+- [ ] Identify if null sessions are possible
+
+
+
+
 
 
 

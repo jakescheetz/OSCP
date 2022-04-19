@@ -64,5 +64,5 @@
 			- sudo pkexec /bin/sh 
 
 - proof.txt file: 
-	- ![[../imgs/Pasted image 20220412162128.png]]
+	- ![[Pasted image 20220412162128.png]]
 
