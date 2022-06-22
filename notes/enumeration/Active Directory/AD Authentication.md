@@ -16,6 +16,7 @@
 - "ticket" based authentication
 - DC functions as a Key Distribution Center (KDC), that evaluates requests and if its successful then the client is granted a ticket
 - default authentication protocol in AD env
+- password hashes are stored in the Local Security Authority Subsystem Service (LSASS)
 
 - **TGT** -> Ticket Granting Ticket
 	- The TGT includes a ton of info like pass hash, session key, IP address, etc.

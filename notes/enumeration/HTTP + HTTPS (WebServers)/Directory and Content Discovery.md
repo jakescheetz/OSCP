@@ -22,6 +22,10 @@
 - run on top of CMS specific scanner
 	- ```wfuzz -c -z file,/path/to/wordlist.txt --sc 200,301,302 http://[ip]/FUZZ```
 
+#### Gau
+- Technique to get all of the url's on a website with URL parameters:
+	- ```echo "https://{targetDomain}.com/" | gau | grep "=" | tee outFile```
+
 
 
 
