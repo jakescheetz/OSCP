@@ -1,3 +1,4 @@
+![logo](images/logo.png)
 # OSCP CheatSheet 2022
 > High-level notes for quick reference, scripts that may be useful for the exam (both my own and third party), tips/tricks & much more
 
@@ -23,3 +24,4 @@
 - This folder contains all of he source code for all the tools that I personally wrote to automate things like recon in the lab environment as well as scripts that were used to build off of during the course
 	- Note that in the source code of each script I'll clearly state what was produced by myself and what is an example from OffSec, I in no way am taking credit for their work or their code examples. 
 - While I think that my scripts for recon can be useful to automate the process, I hihgly recommend not using them during the course exercises so that you can build the adequate skills to approach the lab env. However, feel free to use them elsewhere and especially on the lab env where recon becomes very repetitive. 
+
